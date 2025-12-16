@@ -9,3 +9,8 @@ Instructions:
 """
 
 # TODO: Create and assign the variables in one line
+
+a, b, c = 1, 1.2, "abc"
+
+
+

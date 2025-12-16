@@ -10,3 +10,7 @@ Instructions:
 """
 
 # TODO: Create and assign the variables below
+
+name: str = "Anastasiya"
+age: int = 37
+is_student: bool = False

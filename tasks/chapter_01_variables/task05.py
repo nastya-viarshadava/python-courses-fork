@@ -13,5 +13,6 @@ y == 1
 """
 # Initial variable assignment
 x, y = 1, 2
+y, x = 1, 2
 
 # TODO: Swap variables values in one line

@@ -7,6 +7,9 @@ Instructions:
 
 counter = 10
 
+
 def reset_counter_to_zero():
     # TODO: Reset the global variable `counter` here
+    global counter
     counter = 0
+

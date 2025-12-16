@@ -12,7 +12,8 @@ x == 2
 y == 1
 """
 # Initial variable assignment
-x, y = 1, 2
-y, x = 1, 2
+temp = y
+y = x
+x = temp
 
 # TODO: Swap variables values in one line

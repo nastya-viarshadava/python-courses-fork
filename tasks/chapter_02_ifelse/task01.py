@@ -7,7 +7,15 @@ Write a function `check_number(num: int) -> str` that:
 - Returns "zero" if the number is 0
 """
 
+
 def check_number(num: int) -> str:
     # TODO: Implement the function
     # Remove 'pass' and write your solution using if/else
-    pass
+    if num > 0:
+        return "positive"
+    elif num < 0:
+        return "negative"
+    else:
+        return "zero"
+
+

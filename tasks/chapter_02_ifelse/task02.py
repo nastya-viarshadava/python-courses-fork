@@ -9,4 +9,9 @@ Write a function `check_even_odd(num: int) -> str` that:
 def check_even_odd(num: int) -> str:
     # TODO: Implement the function
     # Remove 'pass' and write your solution using if/else
-    pass
+    if num == 0:
+        return "even"
+    elif num % 2 == 0:
+        return "even"
+    else:
+        return "odd"

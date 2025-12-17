@@ -1,5 +1,5 @@
 import pytest
-from tasks.chapter_02_ifelse.task02 import check_even_odd
+from task02 import check_even_odd
 
 
 def test_even():

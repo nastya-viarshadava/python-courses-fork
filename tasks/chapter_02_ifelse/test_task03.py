@@ -1,5 +1,5 @@
 import pytest
-from tasks.chapter_02_ifelse.task03 import get_grade
+from task03 import get_grade
 
 
 def test_grade_a():

@@ -10,10 +10,19 @@ Write a function `get_grade(score: int) -> str` that:
 - The "F" case(if score is below 60), should be implemented later.
 
 Hint
-Use Pythone Pass Statement when score is below 60.
+Use Python Pass Statement when score is below 60.
 """
 
 def get_grade(score: int) -> str:
     # TODO: Implement the function
     # Remove 'pass' and write your solution using if/elif/else
-    pass
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        pass

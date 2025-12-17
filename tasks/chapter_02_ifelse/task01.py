@@ -19,3 +19,4 @@ def check_number(num: int) -> str:
         return "zero"
 
 
+

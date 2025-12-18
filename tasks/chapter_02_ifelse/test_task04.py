@@ -1,5 +1,5 @@
 import pytest
-from tasks.chapter_02_ifelse.task04 import is_leap_year
+from task04 import is_leap_year
 
 
 def test_leap_year_2000():

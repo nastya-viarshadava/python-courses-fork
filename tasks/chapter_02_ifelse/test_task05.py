@@ -1,6 +1,5 @@
 import pytest
-from tasks.chapter_02_ifelse.task05 import find_largest
-
+from task05 import find_largest
 
 def test_largest_first():
     assert find_largest(5, 3, 1) == 5, "first number is the largest, should return 5"
